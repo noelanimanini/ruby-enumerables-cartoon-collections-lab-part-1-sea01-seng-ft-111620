@@ -9,9 +9,8 @@ end
 end
 
 def list_dwarves(array)
-  %w(Dopey Grumpy Bashful).each_with_index { |dwarf, index|
-  list_dwarves[dwarf]=index
-}
+  dwarves = ["Dopey", "Grumpy", "Bashful"]
+  dwarves.each_with_index {|item, index| p "#{index}:#{item}"}
 end
   # Use `each_with_index` to enumerate over the provided array
   #
