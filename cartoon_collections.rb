@@ -10,7 +10,7 @@ end
 
 def list_dwarves(array)
   dwarves = ["Dopey", "Grumpy", "Bashful"]
-  dwarves.each_with_index |item index|
+  dwarves.each_with_index do |item , index|
    puts {"#{index + 1} #{item}"}
 end
   # Use `each_with_index` to enumerate over the provided array
