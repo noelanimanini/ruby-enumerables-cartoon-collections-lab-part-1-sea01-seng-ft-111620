@@ -9,8 +9,8 @@ end
 end
 
 def list_dwarves(array)
-  %w(Dopey Grumpy Bashful).each_with_index { |item, index|
-  list_dwarves[item]=index
+  %w(Dopey Grumpy Bashful).each_with_index { |dwarf, index|
+  list_dwarves[dwarf]=index
 }
 end
   # Use `each_with_index` to enumerate over the provided array
